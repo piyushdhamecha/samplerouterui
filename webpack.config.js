@@ -25,6 +25,14 @@ module.exports = {
         query: {
           presets: ['react', 'es2015', 'react-hmre']
         }
+      },
+      {
+       test: /\.css$/,
+       loader: 'style-loader'
+      }, {
+       test: /\.css$/,
+       loader: 'css-loader',
+       
       }
     ]
   }

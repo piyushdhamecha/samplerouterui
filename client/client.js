@@ -5,15 +5,8 @@ import configureStore from '../redux/store'
 import { Provider } from 'react-redux'
 
 let initialState = {
-  todos: [{
-    id: 0,
-    completed: false,
-    text: 'Initial todo for demo purposes'
-  }],
-  user: {
-    username: 'kurt',
-    id: 13
-  }
+  Login:{},
+  Register:{}
 }
 
 let store = configureStore(initialState)
